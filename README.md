@@ -45,5 +45,6 @@ The latest Google Chrome & npm
 * The **shapes[]** objects were persisted with local storage.
 * Unit testing cases were written for rotate, scale and check mouse range math functions.
 * The rotate angle and scale ratio could be edited in: **rotateShape.js, scrollShape.js**.
+* More unit tests could be added further.
 
 
