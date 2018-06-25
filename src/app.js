@@ -7,7 +7,7 @@ let previousHovered;
 let previousSelected;
 let storage = window.localStorage;
 // init canvas with 4 shapes
-let shapes = storage.getItem('shapes').length>2?JSON.parse(storage.getItem('shapes')):[
+let shapes = storage.getItem('shapes') && storage.getItem('shapes').length > 2 ? JSON.parse(storage.getItem('shapes')) : [
     new Shape(522, 290, 50,'circle'),
     new Shape(387, 290, 100,'square'),
     new Shape(97, 308, 100,'triangle'),
@@ -37,7 +37,7 @@ window.onload = () => {
 // clean the selected shape
 const unselectshape = () => {
     let u_shapes = [];
-    let shapes_json = storage.getItem('shapes').length>2?JSON.parse(storage.getItem('shapes')):shapes;
+    let shapes_json = storage.getItem('shapes') && storage.getItem('shapes').length > 2 ? JSON.parse(storage.getItem('shapes')) : shapes;
     for (let i = 0; i < shapes_json.length; i++) {
         let shape = shapes_json[i];
         if (shape.isSelected > 0) shape.isSelected = 0;
