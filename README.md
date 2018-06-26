@@ -6,15 +6,16 @@ Drawing and transforming 4 shapes(Circle, Square, Triangle, Star) on HTML5 canva
 
 1. run $ npm install
 2. run $ ./node_modules/.bin/webpack
-3. then browse in Chrome with /dist/index.html
+3. then browse in Chrome with path/to/dist/index.html
 
 #### Functions:
 * Click one shape to select
-* Cilck space area to unselect
-* When selected shape, scroll mouse to scale shape; drag the shape to anywhere on canvas; drag to the top for deleting the shape
-* When double click shape, scroll mouse to rotate shape.
-* Add a shape (circle, triangle, square, star) randomly to the canvas
-* clean canvas
+* Cilck space area in canvas to unselect
+* When selected a shape, scroll mouse(up and down) to scale shape; drag the shape to anywhere on canvas area; drag to the top area for deleting the shape
+* Double click one shape to enable rotate, scroll mouse(up and down) to rotate shape.
+* Add a shape(circle, triangle, square, star) randomly to the canvas area
+* Clean canvas
+* Run $ npm clean, delete everthing in the dist folder
 * Canvas Start Screenshot:
 * ![Canvas Start Screenshot](https://raw.githubusercontent.com/memmove/canvas-es2015-webpack/master/screenshots/Screen%20Shot%202018-06-26%20at%2011.54.31%20AM.png)
 * Canvas drag, rotate, and scale Screenshot:
@@ -31,8 +32,8 @@ The latest Google Chrome & npm
 ## Deployment
 
 * Upload the dist folder to server:
-* /dist/application.js
-* /dist/index.html
+* path/to/dist/application.js
+* path/to/dist/index.html
 
 ## Built With
 
