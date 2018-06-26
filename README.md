@@ -15,8 +15,9 @@ Drawing and transforming 4 shapes(Circle, Square, Triangle, Star) on HTML5 canva
 * When double click shape, scroll mouse to rotate shape.
 * Add a shape (circle, triangle, square, star) randomly to the canvas
 * clean canvas
+* Canvas Start Screenshot:
 * ![Canvas Start Screenshot](https://raw.githubusercontent.com/memmove/canvas-es2015-webpack/master/screenshots/Screen%20Shot%202018-06-26%20at%2011.54.31%20AM.png)
-
+* Canvas drag, rotate, and scale Screenshot:
 * ![Canvas drag, rotate, and scale Screenshot](https://raw.githubusercontent.com/memmove/canvas-es2015-webpack/master/screenshots/Screen%20Shot%202018-06-26%20at%2011.54.46%20AM.png)
 
 ### Prerequisites
