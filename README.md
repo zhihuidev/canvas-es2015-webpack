@@ -14,8 +14,9 @@ Drawing and transforming 4 shapes(Circle, Square, Triangle, Star) on HTML5 canva
 * When selected a shape, scroll mouse(up and down) to scale shape; drag the shape to anywhere on canvas area; drag to the top area for deleting the shape
 * Double click one shape to enable rotate, scroll mouse(up and down) to rotate shape.
 * Add a shape(circle, triangle, square, star) randomly to the canvas area
+* Additional key functions for: w, s, k, up arrow and down arrow
 * Clean canvas
-* Run $ npm clean, delete everthing in the dist folder
+* Run $ npm clean, delete everything in the dist folder
 * Canvas Start Screenshot:
 * ![Canvas Start Screenshot](https://raw.githubusercontent.com/memmove/canvas-es2015-webpack/master/screenshots/Screen%20Shot%202018-06-26%20at%2011.54.31%20AM.png)
 * Canvas drag, rotate, and scale Screenshot:
@@ -39,13 +40,13 @@ The latest Google Chrome & npm
 
 * HTML5 Canvas web api
 * ES6
-* webpack
-* babel
-* mocha and chai
+* Webpack
+* Babel
+* Mocha and Chai
 
 ## Technical overview
 
-* All shapes (circles, triangles, squares, stars) are stored in an object array **shapes[]**, which generated from the **Shape** class.
+* All shapes (circles, triangles, squares, stars) are stored in an object array: **shapes[]**, which generated from the **Shape** class.
 * The draw calls were handled by canvas web api: **drawCircle(), drawSquare(), drawTriangle(), drawStar()**.
 * The **shapes[]** objects were persisted with local storage.
 * Unit testing cases were written for rotate, scale and check mouse range math functions.
