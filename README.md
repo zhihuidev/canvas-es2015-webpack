@@ -16,7 +16,7 @@ Drawing and transforming 4 shapes(Circle, Square, Triangle, Star) on HTML5 canva
 * Add a shape(circle, triangle, square, star) randomly to the canvas area
 * Additional key functions for: w, s, k, up arrow and down arrow
 * Clean canvas
-* Run $ npm clean, delete everything in the dist folder
+* Run $ npm run clean, to delete everything in the dist folder
 * Canvas Start Screenshot:
 * ![Canvas Start Screenshot](https://raw.githubusercontent.com/memmove/canvas-es2015-webpack/master/screenshots/Screen%20Shot%202018-06-26%20at%2011.54.31%20AM.png)
 * Canvas drag, rotate, and scale Screenshot:
