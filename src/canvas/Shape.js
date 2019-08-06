@@ -1,4 +1,4 @@
-let Shape = class {
+const Shape = class {
     constructor(x, y, side, kind) {
         this.x = x;
         this.y = y;
@@ -11,4 +11,4 @@ let Shape = class {
         this.isKilled = false;
     }
 };
-export {Shape}
+export { Shape }

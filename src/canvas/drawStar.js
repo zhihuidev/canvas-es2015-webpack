@@ -10,7 +10,7 @@ const drawStar = (context, shape) => {
                         -Math.sin((54+j*72)/180*Math.PI)*shape.side*0.4+shape.y); 
     }
     if (shape.isSelected) {
-        if(shape.isRotated!==0) {
+        if (shape.isRotated!==0) {
             context.save();
             context.translate(shape.x, shape.y);
             context.rotate(rotateShape(shape));
@@ -27,7 +27,7 @@ const drawStar = (context, shape) => {
         }
         context.fillStyle = 'red';
         context.strokeStyle = 'red';
-    } else if(shape.isSelected === 0 && shape.isRotated!==0) {
+    } else if (shape.isSelected === 0 && shape.isRotated!==0) {
         context.save();
         context.translate(shape.x, shape.y);
         context.rotate(rotateShape(shape));
@@ -43,11 +43,11 @@ const drawStar = (context, shape) => {
         context.restore();
         context.fillStyle = 'black';
         context.strokeStyle = 'black';
-        if(shape.isHovered) {
+        if (shape.isHovered) {
             context.fillStyle = 'grey';
             context.strokeStyle = 'grey';
         }
-    } else if(shape.isHovered) {
+    } else if (shape.isHovered) {
         context.fillStyle = 'grey';
         context.strokeStyle = 'grey';
     } else {

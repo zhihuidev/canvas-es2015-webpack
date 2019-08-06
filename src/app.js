@@ -45,7 +45,7 @@ const unselectshape = () => {
     }
     let s = JSON.stringify(u_shapes);
     storage.setItem('shapes',s);
-    shapes = storage.getItem('shapes').length>2?JSON.parse(storage.getItem('shapes')):[];
+    shapes = storage.getItem('shapes').length > 2 ? JSON.parse (storage.getItem('shapes')) : [];
 }
 // add shape randomly on canvas
 const randomFromTo = (from, to) => {

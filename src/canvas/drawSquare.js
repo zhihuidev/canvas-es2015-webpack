@@ -7,7 +7,7 @@ const drawSquare = (context, shape) => {
     context.lineTo(shape.x+shape.side/2,shape.y+shape.side/2);
     context.lineTo(shape.x-shape.side/2,shape.y+shape.side/2);
     if (shape.isSelected) {
-        if(shape.isRotated!==0) {
+        if (shape.isRotated !== 0) {
             context.save();
             context.translate(shape.x, shape.y);
             context.rotate(rotateShape(shape));
@@ -21,7 +21,7 @@ const drawSquare = (context, shape) => {
         }
         context.fillStyle = 'red';
         context.strokeStyle = 'red';
-    } else if(shape.isSelected === 0 && shape.isRotated!==0) {
+    } else if (shape.isSelected === 0 && shape.isRotated!==0) {
         context.save();
         context.translate(shape.x, shape.y);
         context.rotate(rotateShape(shape));
@@ -34,11 +34,11 @@ const drawSquare = (context, shape) => {
         context.restore();
         context.fillStyle = 'black';
         context.strokeStyle = 'black';
-        if(shape.isHovered) {
+        if (shape.isHovered) {
             context.fillStyle = 'grey';
             context.strokeStyle = 'grey';
         }
-    } else if(shape.isHovered) {
+    } else if (shape.isHovered) {
         context.fillStyle = 'grey';
         context.strokeStyle = 'grey';
     } else {
